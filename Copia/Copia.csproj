@@ -70,11 +70,23 @@
     <Compile Include="Interface\Book_Folder\Check_Amount.Designer.cs">
       <DependentUpon>Check_Amount.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interface\Book_Folder\Decrease_Book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\Book_Folder\Decrease_Book.Designer.cs">
+      <DependentUpon>Decrease_Book.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interface\Book_Folder\Delete_Book.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Interface\Book_Folder\Delete_Book.Designer.cs">
       <DependentUpon>Delete_Book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\Book_Folder\Increase_Book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\Book_Folder\Increase_Book.Designer.cs">
+      <DependentUpon>Increase_Book.cs</DependentUpon>
     </Compile>
     <Compile Include="Interface\Book_Folder\Modify_Book.cs">
       <SubType>Form</SubType>
@@ -148,8 +160,14 @@
     <EmbeddedResource Include="Interface\Book_Folder\Check_Amount.resx">
       <DependentUpon>Check_Amount.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Interface\Book_Folder\Decrease_Book.resx">
+      <DependentUpon>Decrease_Book.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interface\Book_Folder\Delete_Book.resx">
       <DependentUpon>Delete_Book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\Book_Folder\Increase_Book.resx">
+      <DependentUpon>Increase_Book.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interface\Book_Folder\Modify_Book.resx">
       <DependentUpon>Modify_Book.cs</DependentUpon>

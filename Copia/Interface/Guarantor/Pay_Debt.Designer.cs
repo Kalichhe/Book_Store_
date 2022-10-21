@@ -52,7 +52,7 @@
             this.DNI_textBox1.Location = new System.Drawing.Point(66, 89);
             this.DNI_textBox1.Name = "DNI_textBox1";
             this.DNI_textBox1.Size = new System.Drawing.Size(259, 22);
-            this.DNI_textBox1.TabIndex = 19;
+            this.DNI_textBox1.TabIndex = 2;
             // 
             // PayDebt_label1
             // 
@@ -70,7 +70,7 @@
             this.GoBack_button3.Location = new System.Drawing.Point(12, 49);
             this.GoBack_button3.Name = "GoBack_button3";
             this.GoBack_button3.Size = new System.Drawing.Size(98, 34);
-            this.GoBack_button3.TabIndex = 22;
+            this.GoBack_button3.TabIndex = 1;
             this.GoBack_button3.Text = "Go Back";
             this.GoBack_button3.UseVisualStyleBackColor = true;
             this.GoBack_button3.Click += new System.EventHandler(this.GoBack_button3_Click);
@@ -81,7 +81,7 @@
             this.AddPay_button1.Location = new System.Drawing.Point(129, 145);
             this.AddPay_button1.Name = "AddPay_button1";
             this.AddPay_button1.Size = new System.Drawing.Size(98, 34);
-            this.AddPay_button1.TabIndex = 23;
+            this.AddPay_button1.TabIndex = 4;
             this.AddPay_button1.Text = "Add Pay";
             this.AddPay_button1.UseVisualStyleBackColor = true;
             this.AddPay_button1.Click += new System.EventHandler(this.Search_button1_Click);
@@ -101,7 +101,7 @@
             this.Pay_textBox1.Location = new System.Drawing.Point(66, 117);
             this.Pay_textBox1.Name = "Pay_textBox1";
             this.Pay_textBox1.Size = new System.Drawing.Size(257, 22);
-            this.Pay_textBox1.TabIndex = 25;
+            this.Pay_textBox1.TabIndex = 3;
             // 
             // Pay_Debt
             // 

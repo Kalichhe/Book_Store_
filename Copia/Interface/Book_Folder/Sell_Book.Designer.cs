@@ -43,7 +43,7 @@
             this.ToClose_button3.Name = "ToClose_button3";
             this.ToClose_button3.Size = new System.Drawing.Size(98, 34);
             this.ToClose_button3.TabIndex = 1;
-            this.ToClose_button3.Text = "To Close";
+            this.ToClose_button3.Text = "Go Back";
             this.ToClose_button3.UseVisualStyleBackColor = true;
             this.ToClose_button3.Click += new System.EventHandler(this.ToClose_button3_Click);
             // 
@@ -66,9 +66,9 @@
             this.AddBook_label1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.AddBook_label1.Location = new System.Drawing.Point(314, 9);
             this.AddBook_label1.Name = "AddBook_label1";
-            this.AddBook_label1.Size = new System.Drawing.Size(143, 37);
+            this.AddBook_label1.Size = new System.Drawing.Size(156, 37);
             this.AddBook_label1.TabIndex = 21;
-            this.AddBook_label1.Text = "Sell Book";
+            this.AddBook_label1.Text = "Sell Books";
             // 
             // textBox1
             // 

@@ -70,8 +70,9 @@
             this.ToClose_button3.Name = "ToClose_button3";
             this.ToClose_button3.Size = new System.Drawing.Size(98, 34);
             this.ToClose_button3.TabIndex = 35;
-            this.ToClose_button3.Text = "To Close";
+            this.ToClose_button3.Text = "Go Back";
             this.ToClose_button3.UseVisualStyleBackColor = true;
+            this.ToClose_button3.Click += new System.EventHandler(this.ToClose_button3_Click);
             // 
             // Delete_Book_label1
             // 
@@ -94,7 +95,7 @@
             this.Controls.Add(this.ToClose_button3);
             this.Controls.Add(this.Delete_Book_label1);
             this.Name = "Delete_Book";
-            this.Text = "Delete_Book";
+            this.Text = "Delete Book";
             this.ResumeLayout(false);
             this.PerformLayout();
 

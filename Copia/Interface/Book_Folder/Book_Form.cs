@@ -83,6 +83,18 @@ namespace Copia.Interface.Book_Folder
             using (Pay_Debt pay_Debt = new Pay_Debt())
                 pay_Debt.ShowDialog();
         }
+
+        private void IncreaseBook_button1_Click(object sender, EventArgs e)
+        {
+            using (Increase_Book increase_Book = new Increase_Book())
+                increase_Book.ShowDialog();
+        }
+
+        private void DecreaseBook_button2_Click(object sender, EventArgs e)
+        {
+            using (Decrease_Book decrease_Book = new Decrease_Book())
+                decrease_Book.ShowDialog();
+        }
     }
     
 }

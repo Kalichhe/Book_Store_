@@ -146,7 +146,7 @@
             this.ToClose_button3.Name = "ToClose_button3";
             this.ToClose_button3.Size = new System.Drawing.Size(98, 34);
             this.ToClose_button3.TabIndex = 47;
-            this.ToClose_button3.Text = "To Close";
+            this.ToClose_button3.Text = "Go Back";
             this.ToClose_button3.UseVisualStyleBackColor = true;
             this.ToClose_button3.Click += new System.EventHandler(this.ToClose_button3_Click);
             // 

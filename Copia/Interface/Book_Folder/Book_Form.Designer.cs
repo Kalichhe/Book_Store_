@@ -62,7 +62,7 @@
             this.ToClose_button3.Name = "ToClose_button3";
             this.ToClose_button3.Size = new System.Drawing.Size(98, 34);
             this.ToClose_button3.TabIndex = 14;
-            this.ToClose_button3.Text = "To Close";
+            this.ToClose_button3.Text = "Go Back";
             this.ToClose_button3.UseVisualStyleBackColor = true;
             this.ToClose_button3.Click += new System.EventHandler(this.ToClose_button3_Click);
             // 
@@ -162,6 +162,7 @@
             this.IncreaseBook_button1.TabIndex = 23;
             this.IncreaseBook_button1.Text = "Increase Book";
             this.IncreaseBook_button1.UseVisualStyleBackColor = true;
+            this.IncreaseBook_button1.Click += new System.EventHandler(this.IncreaseBook_button1_Click);
             // 
             // DecreaseBook_button2
             // 
@@ -172,6 +173,7 @@
             this.DecreaseBook_button2.TabIndex = 24;
             this.DecreaseBook_button2.Text = "Decrease Book";
             this.DecreaseBook_button2.UseVisualStyleBackColor = true;
+            this.DecreaseBook_button2.Click += new System.EventHandler(this.DecreaseBook_button2_Click);
             // 
             // ShowGuarantor_button1
             // 
