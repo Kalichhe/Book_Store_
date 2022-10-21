@@ -1,0 +1,17 @@
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.csproj.AssemblyReference.cache
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.csproj.SuggestedBindingRedirects.cache
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.Properties.Resources.resources
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.csproj.GenerateResource.cache
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.csproj.CoreCompileInputs.cache
+C:\Users\kalic\source\repos\Copia\Copia\bin\Debug\Copia.exe.config
+C:\Users\kalic\source\repos\Copia\Copia\bin\Debug\Copia.exe
+C:\Users\kalic\source\repos\Copia\Copia\bin\Debug\Copia.pdb
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.Interface.Main.resources
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.exe
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.pdb
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.Interface.Book_Folder.Add_Book.resources
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.Interface.Book_Folder.Book_Form.resources
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.Interface.Book_Folder.Modify_Book.resources
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.Interface.Book_Folder.Delete_Book.resources
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.Interface.Book_Folder.Show_Book.resources
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.Interface.Book_Folder.Validate_Book.resources
