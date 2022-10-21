@@ -15,3 +15,10 @@ C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.Interface.Book_Folder.Mo
 C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.Interface.Book_Folder.Delete_Book.resources
 C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.Interface.Book_Folder.Show_Book.resources
 C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.Interface.Book_Folder.Validate_Book.resources
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.Interface.Book_Folder.Check_Amount.resources
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.Interface.Book_Folder.Units_Nearing_Depletion.resources
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.Interface.Book_Folder.Add_To_Cart.resources
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.Interface.Book_Folder.Sell_Book.resources
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.Interface.Guarantor.Add_Guarantor.resources
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.Interface.Guarantor.Show_Guarantor.resources
+C:\Users\kalic\source\repos\Copia\Copia\obj\Debug\Copia.Interface.Guarantor.Pay_Debt.resources

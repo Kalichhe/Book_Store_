@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Copia.Interface.Guarantor;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -46,5 +47,42 @@ namespace Copia.Interface.Book_Folder
             using (Validate_Book validate_Book = new Validate_Book())
                 validate_Book.ShowDialog();
         }
+
+        private void CheckAmount_button3_Click(object sender, EventArgs e)
+        {
+            using (Check_Amount check_Amount = new Check_Amount())
+                check_Amount.ShowDialog();
+        }
+
+        private void UnitsNearingDepletion_button3_Click(object sender, EventArgs e)
+        {
+            using (Units_Nearing_Depletion units_Nearing_Depletion = new Units_Nearing_Depletion())
+                units_Nearing_Depletion.ShowDialog();
+        }
+
+        private void AddBookToCart_button1_Click(object sender, EventArgs e)
+        {
+            using (Add_To_Cart add_To_Cart = new Add_To_Cart())
+                add_To_Cart.ShowDialog();
+        }
+
+        private void SellBook_button3_Click(object sender, EventArgs e)
+        {
+            using (Sell_Book sell_Book = new Sell_Book())
+                sell_Book.ShowDialog();
+        }
+
+        private void ShowGuarantor_button1_Click(object sender, EventArgs e)
+        {
+            using (Show_Guarantor show_Guarantor = new Show_Guarantor())
+                show_Guarantor.ShowDialog();
+        }
+
+        private void PayDebt_button1_Click(object sender, EventArgs e)
+        {
+            using (Pay_Debt pay_Debt = new Pay_Debt())
+                pay_Debt.ShowDialog();
+        }
     }
+    
 }

@@ -27,6 +27,7 @@ namespace BookStoreApp.Model
             Book libro1 = new Book("1", "GOT", "Ficción", 20, 5000);
 
             Book libro2 = new Book("2","House of the dragon", "Ficción", 20, 5000);
+           
 
             Books.Add(libro1);
             Books.Add(libro2);
@@ -228,7 +229,7 @@ namespace BookStoreApp.Model
             string lista = "";
             foreach (Fiador item in Fiadores)
             {
-                lista += item.Id + " " + item.Name + " " + item.Debt + "\n";
+                lista += "DNI: " + item.Id + " " + "NAME: "+ item.Name + " " + "DEBT: " +  item.Debt + "\r\n";
             }
             return lista;
         }
@@ -329,7 +330,7 @@ namespace BookStoreApp.Model
             {
                 if (item.Amount < 5)
                 {
-                    list += item.Code + " " + item.Name + " " + item.Category + " " + item.Amount + " " + item.Value + "\n";
+                    list += " Code: " + item.Code + " " + "Name: " + item.Name + " " + "Category: " + item.Category + " " + "Amount: " + item.Amount + " " + "Value: " + item.Value + "\r\n";
                 }
             }
             return list;

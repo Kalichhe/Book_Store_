@@ -29,10 +29,9 @@ namespace Copia.Interface.Book_Folder
             {
                 try
                 {
-                    Bookshop bookshop = new Bookshop();
                     string code = BookCode_textBox1.Text.Trim();
 
-                    if (bookshop.DeleteBook(code))
+                    if (Main.bookshop.DeleteBook(code))
                     {
                         Clean_Fields();
                         MessageBox.Show("Deleted Book");

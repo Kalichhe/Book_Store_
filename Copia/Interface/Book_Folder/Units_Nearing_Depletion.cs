@@ -11,25 +11,12 @@ using System.Windows.Forms;
 
 namespace Copia.Interface.Book_Folder
 {
-    public partial class Show_Book : Form
+    public partial class Units_Nearing_Depletion : Form
     {
-        public Show_Book()
+        public Units_Nearing_Depletion()
         {
             InitializeComponent();
             CenterToScreen();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void Listar_button1_Click(object sender, EventArgs e)
-        {
-            
-            string list = Main.bookshop.ListBooks();
-            textBox1.Text = list;
-
         }
 
         private void ToClose_button3_Click(object sender, EventArgs e)
@@ -37,5 +24,15 @@ namespace Copia.Interface.Book_Folder
             Close();
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ToList_button1_Click(object sender, EventArgs e)
+        {
+            string list = Main.bookshop.UnitsToRunOut();
+            textBox1.Text = list;
+        }
     }
 }

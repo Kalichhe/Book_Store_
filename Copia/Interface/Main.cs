@@ -15,9 +15,12 @@ namespace Copia.Interface
 {
     public partial class Main : Form
     {
+        public static Bookshop bookshop;
+
         public Main()
         {
             InitializeComponent();
+            bookshop = new Bookshop();
             CenterToScreen();
         }
 
@@ -48,14 +51,20 @@ namespace Copia.Interface
 
         private void Book_button1_Click_1(object sender, EventArgs e)
         {
-            using (Book_Form book_Form = new Book_Form())
+            Book_Form book_Form = new Book_Form();
                 book_Form.ShowDialog();
+            
         }
 
         private void ShowBook_button2_Click_1(object sender, EventArgs e)
         {
             using (Show_Book show_Book = new Show_Book())
                 show_Book.ShowDialog();
+        }
+
+        private void Guarantor_button2_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -46,14 +46,13 @@ namespace Copia.Interface.Book_Folder
                 {
                     try
                     {
-                        Bookshop bookshop = new Bookshop();
                         string code = Code_textBox1.Text.Trim();
                         string name = NewBookName_textBox1.Text.Trim();
                         string category = NewBookCategory_textBox1.Text.Trim();
                         int amount = Convert.ToInt32(NewBookAmount_textBox1.Text.Trim());
                         double value = Convert.ToDouble(NewBookValue_textBox1.Text.Trim());
     
-                        if (bookshop.ModifyBook(code, name, category, amount, value))
+                        if (Main.bookshop.ModifyBook(code, name, category, amount, value))
                         {
                             Clean_Fields();
                             MessageBox.Show("The Book Has Been Modified");

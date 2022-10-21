@@ -11,12 +11,12 @@ using System.Windows.Forms;
 
 namespace Copia.Interface.Book_Folder
 {
-    public partial class Validate_Book : Form
+    public partial class Check_Amount : Form
     {
-        public Validate_Book()
+        public Check_Amount()
         {
             InitializeComponent();
-            CenterToScreen();  
+            CenterToScreen();
         }
 
         private void Send_button1_Click(object sender, EventArgs e)
@@ -30,11 +30,12 @@ namespace Copia.Interface.Book_Folder
                 try
                 {
                     string code = BookCode_textBox1.Text.Trim();
+                    int amount = Main.bookshop.QuantityUnits(code);
 
-                    if (Main.bookshop.ValidateBook(code))
+                    if (amount != 0)
                     {
                         Clean_Fields();
-                        MessageBox.Show("The Book Does Exist");
+                        MessageBox.Show($"The Number Of Books There Are {amount}");
                     }
                     else
                     {

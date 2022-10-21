@@ -52,11 +52,23 @@
     <Compile Include="Interface\Book_Folder\Add_Book.Designer.cs">
       <DependentUpon>Add_Book.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interface\Book_Folder\Add_To_Cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\Book_Folder\Add_To_Cart.Designer.cs">
+      <DependentUpon>Add_To_Cart.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interface\Book_Folder\Book_Form.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Interface\Book_Folder\Book_Form.Designer.cs">
       <DependentUpon>Book_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\Book_Folder\Check_Amount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\Book_Folder\Check_Amount.Designer.cs">
+      <DependentUpon>Check_Amount.cs</DependentUpon>
     </Compile>
     <Compile Include="Interface\Book_Folder\Delete_Book.cs">
       <SubType>Form</SubType>
@@ -70,17 +82,47 @@
     <Compile Include="Interface\Book_Folder\Modify_Book.Designer.cs">
       <DependentUpon>Modify_Book.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interface\Book_Folder\Sell_Book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\Book_Folder\Sell_Book.Designer.cs">
+      <DependentUpon>Sell_Book.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interface\Book_Folder\Show_Book.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Interface\Book_Folder\Show_Book.Designer.cs">
       <DependentUpon>Show_Book.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interface\Book_Folder\Units_Nearing_Depletion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\Book_Folder\Units_Nearing_Depletion.Designer.cs">
+      <DependentUpon>Units_Nearing_Depletion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interface\Book_Folder\Validate_Book.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Interface\Book_Folder\Validate_Book.Designer.cs">
       <DependentUpon>Validate_Book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\Guarantor\Add_Guarantor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\Guarantor\Add_Guarantor.Designer.cs">
+      <DependentUpon>Add_Guarantor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\Guarantor\Pay_Debt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\Guarantor\Pay_Debt.Designer.cs">
+      <DependentUpon>Pay_Debt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\Guarantor\Show_Guarantor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\Guarantor\Show_Guarantor.Designer.cs">
+      <DependentUpon>Show_Guarantor.cs</DependentUpon>
     </Compile>
     <Compile Include="Interface\Main.cs">
       <SubType>Form</SubType>
@@ -97,8 +139,14 @@
     <EmbeddedResource Include="Interface\Book_Folder\Add_Book.resx">
       <DependentUpon>Add_Book.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Interface\Book_Folder\Add_To_Cart.resx">
+      <DependentUpon>Add_To_Cart.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interface\Book_Folder\Book_Form.resx">
       <DependentUpon>Book_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\Book_Folder\Check_Amount.resx">
+      <DependentUpon>Check_Amount.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interface\Book_Folder\Delete_Book.resx">
       <DependentUpon>Delete_Book.cs</DependentUpon>
@@ -106,11 +154,26 @@
     <EmbeddedResource Include="Interface\Book_Folder\Modify_Book.resx">
       <DependentUpon>Modify_Book.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Interface\Book_Folder\Sell_Book.resx">
+      <DependentUpon>Sell_Book.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interface\Book_Folder\Show_Book.resx">
       <DependentUpon>Show_Book.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Interface\Book_Folder\Units_Nearing_Depletion.resx">
+      <DependentUpon>Units_Nearing_Depletion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interface\Book_Folder\Validate_Book.resx">
       <DependentUpon>Validate_Book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\Guarantor\Add_Guarantor.resx">
+      <DependentUpon>Add_Guarantor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\Guarantor\Pay_Debt.resx">
+      <DependentUpon>Pay_Debt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\Guarantor\Show_Guarantor.resx">
+      <DependentUpon>Show_Guarantor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interface\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
