@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Copia", "Copia\Copia.csproj", "{00C83AC3-39B9-44F9-A9BE-3463CFBFD6AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopiaTests", "CopiaTests\CopiaTests.csproj", "{31DA7121-7A28-4AE7-9A02-B2ABC5A01379}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{00C83AC3-39B9-44F9-A9BE-3463CFBFD6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00C83AC3-39B9-44F9-A9BE-3463CFBFD6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00C83AC3-39B9-44F9-A9BE-3463CFBFD6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31DA7121-7A28-4AE7-9A02-B2ABC5A01379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DA7121-7A28-4AE7-9A02-B2ABC5A01379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DA7121-7A28-4AE7-9A02-B2ABC5A01379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DA7121-7A28-4AE7-9A02-B2ABC5A01379}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -82,5 +82,11 @@ namespace Copia.Interface.Book_Folder
         {
             Close();
         }
+
+        private void ToList_button1_Click(object sender, EventArgs e)
+        {
+            string list = Main.bookshop.ListBooks();
+            textBox1.Text = list;
+        }
     }
 }

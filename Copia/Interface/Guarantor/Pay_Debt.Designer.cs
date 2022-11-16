@@ -41,48 +41,53 @@
             // 
             this.DNI_label1.AutoSize = true;
             this.DNI_label1.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DNI_label1.Location = new System.Drawing.Point(12, 86);
+            this.DNI_label1.Location = new System.Drawing.Point(9, 70);
+            this.DNI_label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.DNI_label1.Name = "DNI_label1";
-            this.DNI_label1.Size = new System.Drawing.Size(48, 23);
+            this.DNI_label1.Size = new System.Drawing.Size(38, 18);
             this.DNI_label1.TabIndex = 20;
             this.DNI_label1.Text = "DNI";
             // 
             // DNI_textBox1
             // 
-            this.DNI_textBox1.Location = new System.Drawing.Point(66, 89);
+            this.DNI_textBox1.Location = new System.Drawing.Point(50, 72);
+            this.DNI_textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DNI_textBox1.Name = "DNI_textBox1";
-            this.DNI_textBox1.Size = new System.Drawing.Size(259, 22);
+            this.DNI_textBox1.Size = new System.Drawing.Size(195, 20);
             this.DNI_textBox1.TabIndex = 2;
             // 
             // PayDebt_label1
             // 
             this.PayDebt_label1.AutoSize = true;
             this.PayDebt_label1.Font = new System.Drawing.Font("Bell MT", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PayDebt_label1.Location = new System.Drawing.Point(94, 9);
+            this.PayDebt_label1.Location = new System.Drawing.Point(70, 7);
+            this.PayDebt_label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.PayDebt_label1.Name = "PayDebt_label1";
-            this.PayDebt_label1.Size = new System.Drawing.Size(143, 37);
+            this.PayDebt_label1.Size = new System.Drawing.Size(153, 30);
             this.PayDebt_label1.TabIndex = 21;
-            this.PayDebt_label1.Text = "Pay Debt";
+            this.PayDebt_label1.Text = "Pagar deuda";
             // 
             // GoBack_button3
             // 
             this.GoBack_button3.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GoBack_button3.Location = new System.Drawing.Point(12, 49);
+            this.GoBack_button3.Location = new System.Drawing.Point(9, 40);
+            this.GoBack_button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.GoBack_button3.Name = "GoBack_button3";
-            this.GoBack_button3.Size = new System.Drawing.Size(98, 34);
+            this.GoBack_button3.Size = new System.Drawing.Size(74, 28);
             this.GoBack_button3.TabIndex = 1;
-            this.GoBack_button3.Text = "Go Back";
+            this.GoBack_button3.Text = "Volver";
             this.GoBack_button3.UseVisualStyleBackColor = true;
             this.GoBack_button3.Click += new System.EventHandler(this.GoBack_button3_Click);
             // 
             // AddPay_button1
             // 
             this.AddPay_button1.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddPay_button1.Location = new System.Drawing.Point(129, 145);
+            this.AddPay_button1.Location = new System.Drawing.Point(89, 118);
+            this.AddPay_button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.AddPay_button1.Name = "AddPay_button1";
-            this.AddPay_button1.Size = new System.Drawing.Size(98, 34);
+            this.AddPay_button1.Size = new System.Drawing.Size(134, 28);
             this.AddPay_button1.TabIndex = 4;
-            this.AddPay_button1.Text = "Add Pay";
+            this.AddPay_button1.Text = "Agregar pago";
             this.AddPay_button1.UseVisualStyleBackColor = true;
             this.AddPay_button1.Click += new System.EventHandler(this.Search_button1_Click);
             // 
@@ -90,24 +95,26 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 109);
+            this.label1.Location = new System.Drawing.Point(9, 89);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 23);
+            this.label1.Size = new System.Drawing.Size(42, 18);
             this.label1.TabIndex = 24;
-            this.label1.Text = "Pay";
+            this.label1.Text = "Pago";
             // 
             // Pay_textBox1
             // 
-            this.Pay_textBox1.Location = new System.Drawing.Point(66, 117);
+            this.Pay_textBox1.Location = new System.Drawing.Point(50, 95);
+            this.Pay_textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Pay_textBox1.Name = "Pay_textBox1";
-            this.Pay_textBox1.Size = new System.Drawing.Size(257, 22);
+            this.Pay_textBox1.Size = new System.Drawing.Size(194, 20);
             this.Pay_textBox1.TabIndex = 3;
             // 
             // Pay_Debt
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(345, 189);
+            this.ClientSize = new System.Drawing.Size(259, 154);
             this.Controls.Add(this.Pay_textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.AddPay_button1);
@@ -115,6 +122,7 @@
             this.Controls.Add(this.PayDebt_label1);
             this.Controls.Add(this.DNI_label1);
             this.Controls.Add(this.DNI_textBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Pay_Debt";
             this.Text = "Pay_Debt";
             this.ResumeLayout(false);

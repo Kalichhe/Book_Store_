@@ -35,10 +35,11 @@ namespace BookStoreApp.Model
 
         //Validamos si la libria cuenta con el libro.
         /// <summary>
-        /// Verifies that the book is in the library (the book is searched using the code as a parameter)
+        /// Verifica que el libro está en la biblioteca (se busca el libro usando el código como parámetro)
+        /// RF 04 - HU 04
         /// </summary>
         /// <param name="code"></param>
-        /// <returns>If the book is in the library we return true otherwise false</returns>
+        /// <returns>Si el libro está en la biblioteca, devolvemos true, de lo contrario, false.</returns>
         public bool ValidateBook(string code)
         {
 
@@ -52,14 +53,15 @@ namespace BookStoreApp.Model
         }
 
         /// <summary>
-        /// Allows you to change the name, category and value of the book. (the book is searched by code)
+        /// Le permite cambiar el nombre, la categoría y el valor del libro. (el libro se busca por código)
+        /// RF 02 - HU 02
         /// </summary>
         /// <param name="code"></param>
         /// <param name="name"></param>
         /// <param name="category"></param>
         /// <param name="amount"></param>
         /// <param name="value"></param>
-        /// <returns>If the book is found, its attributes to be modified are changed and we return true, otherwise we return false.</returns>
+        /// <returns>Si se encuentra el libro, se cambian sus atributos a modificar y devolvemos verdadero, en caso contrario devolvemos falso.</returns>
         public bool ModifyBook(string code, string name, string category, int amount, double value)
         {
             foreach (Book book in Books)
@@ -77,15 +79,16 @@ namespace BookStoreApp.Model
         }
 
         /// <summary>
-        /// Allows you to add a new book to the library
+        /// Le permite agregar un nuevo libro a la biblioteca 
+        /// RF 01 - HU 01
         /// </summary>
         /// <param name="code"></param>
         /// <param name="name"></param>
         /// <param name="category"></param>
         /// <param name="amount"></param>
         /// <param name="value"></param>
-        /// <returns>If the book does not exist: it is added to the library and we return true.
-        ///If the book exists in the library: it is not added to the library and we return false</returns>
+        /// <returns>Si el libro no existe: se añade a la biblioteca y devolvemos verdadero.
+        ///Si el libro existe en la biblioteca: no se agrega a la biblioteca y devolvemos falso</returns>
         public bool AddBook(string code, string name, string category, int amount, double value)
         {
             if (ValidateBook(code))
@@ -101,6 +104,12 @@ namespace BookStoreApp.Model
 
         }
 
+        /// <summary>
+        /// Se elimina un libro de la lista de libros (se busca el libro mediante el código)
+        /// RF 03 - HU 03
+        /// </summary>
+        /// <param name="code"></param>
+        /// <returns>Retorna True si el libro es eliminado, de lo contrario retorna False</returns>
         public bool DeleteBook(string code)
         {
             foreach  (Book book in Books)
@@ -115,9 +124,10 @@ namespace BookStoreApp.Model
         }
 
         /// <summary>
-        /// It shows in the interface the books in a list, with the code, name, category, units, and value.
+        /// Muestra en la interfaz los libros en una lista, con el código, nombre, categoría, unidades y valor.
+        /// FR 08 - HU 08
         /// </summary>
-        /// <returns>Returns a string with the books that exist in the library.</returns>
+        /// <returns>Devuelve una cadena con los libros que existen en la biblioteca.</returns>
         public string ListBooks()
         {
             string lista = "";
@@ -129,11 +139,12 @@ namespace BookStoreApp.Model
         }
 
         /// <summary>
-        /// A book is added to the shopping cart
+        /// Se añade un libro al carrito de la compra.
+        /// RF 05 - HU 05
         /// </summary>
         /// <param name="code"></param>
         /// <param name="amount"></param>
-        /// <returns>If the value of the book is equal to 0, the book is not added to the cart and false is returned, otherwise the book is added and true is returned.</returns>
+        /// <returns>Si el valor del libro es igual a 0, el libro no se agrega al carrito y se devuelve falso, en caso contrario se agrega el libro y se devuelve verdadero.</returns>
         public bool AddBooksToCart(string code, int amount)
         {
             if (ValidateBook(code))
@@ -182,10 +193,11 @@ namespace BookStoreApp.Model
         }
 
         /// <summary>
-        /// It is verified if the guarantor is in the system.
+        /// Se verifica si el fiador está en el sistema.
+        /// RF 13 - HU 13
         /// </summary>
         /// <param name="id">DNI</param>
-        /// <returns>If the guarantor is in the system, true is returned, otherwise false is returned.</returns>
+        /// <returns>Si el garante está en el sistema, se devuelve verdadero, de lo contrario, se devuelve falso.</returns>
         public bool CheckBondsman(int id) //Verificar fiador
         {
             foreach (Fiador bondsman in Fiadores)
@@ -270,10 +282,11 @@ namespace BookStoreApp.Model
         }
 
         /// <summary>
-        /// Check the number of units in a book.
+        /// Comprobar el número de unidades en un libro.
+        /// RF 17 - HU 17
         /// </summary>
         /// <param name="code"></param>
-        /// <returns>The number of units in the book is returned.</returns>
+        /// <returns>Se devuelve el número de unidades del libro.</returns>
         public int QuantityUnits(string code) //cantidad de unidades.
         {
             foreach (Book book in Books)

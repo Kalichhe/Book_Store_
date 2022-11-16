@@ -84,5 +84,6 @@ namespace Copia.Interface.Book_Folder
             BookAmount_textBox1.Text = "";
             BookValue_textBox1.Text = "";
         }
+
     }
 }
